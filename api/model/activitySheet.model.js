@@ -24,6 +24,10 @@ var placement = new Schema({
     // e.g. 4
       type: Number
   },
+  info: {
+    // e.g. "National/Test Area"
+      type: String
+  },
 });
 
 var action = new Schema({

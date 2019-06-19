@@ -29,7 +29,7 @@ connection.once('open', function() {
 let ActivitySheet = require('../model/activitySheet.model');
 
 router.route('/').get(function(req, res) {
-    ActivitySheet.find(function(err, ActivitySheet) {
+    ActivitySheet.findOne(function(err, ActivitySheet) {
         if (err) {
             console.log(err);
         } else {
