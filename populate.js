@@ -17,9 +17,9 @@ ActivitySheet.findOne({'store_id': "12345678", 'range_end_date': "2019-06-18T00:
         range_start_date: "2019-06-19T00:00:00.000Z",
         range_end_date: "2019-06-25T00:00:00.000Z",
         week: 25,
-        weekly_news: "Following feedback, we are reducing the maximun number of collectibles each store receives. This will take effect from start of April, however this will only officially change on Kiosk plans in July as part of the range event. Please see the collectibles section for details on the new number of collectibles should range. As always you can use the Smiths (SNapp), Menzies (i-menzies), or G.E.White (IOM) websites for amending supply levels with your supplying wholesaler. Last Weeks early returns were £54k. The previous 6 weeks average og £61k, stores have missed out on nearly £37k in sales!",
+        weekly_news: "Following feedback, we are reducing the maximun number of collectibles each store receives. This will take effect from start of April, however this will only officially change on Kiosk plans in July as part of the range event. Please see the collectibles section for details on the new number of collectibles should range. As always you can use the Smiths (SNapp), Menzies (i-menzies), or G.E.White (IOM) websites for amending supply levels with your supplying wholesaler. Last Weeks early returns were £54k. The previous 6 weeks average of £61k, stores have missed out on nearly £37k in sales!",
         actions: [
-          {publication: {display_name: "Disney Playtime",type: "Magazines"}, placement: {type: "We Recommend Unit",location: "Magazine Fixture",position: "1"}, is_new: true },
+          {publication: {display_name: "Disney Playtime",type: "Magazines"}, placement: {type: "We Recommend Unit",location: "Magazine Fixture",position: "1"}, is_new: false },
           {publication: {display_name: "Inside Soap",type: "Magazines"}, placement: {type: "We Recommend Unit",location: "Magazine Fixture",position: "2"}, is_new: false },
           {publication: {display_name: "Official Tour de France",type: "Magazines"}, placement: {type: "We Recommend Unit",location: "Magazine Fixture",position: "3"}, is_new: false },
 
