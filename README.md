@@ -1,4 +1,6 @@
-# coop-nm-suppliers-api
+# coop-nm-category-api
+
+Mocked up Activity Sheet API
 
 Requires a MongoDB instance on localhost:27017
 Install Node.js
@@ -8,10 +10,4 @@ Run
   npm start
 
 In a browser, go to
-  http://localhost:4001/suppliers
-
-If using Docker
-sudo docker-compose up -d --build
-
-
-http://localhost:4001/suppliers
+  http://localhost:4010/activitysheets
