@@ -11,3 +11,6 @@ Run
 
 In a browser, go to  
   http://localhost:4010/activitysheets
+
+Mocked-up data is populated by running  
+  node ./populate.js  
